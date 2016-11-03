@@ -1,0 +1,17 @@
+#birdy {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 92px;
+  height: 64px;
+  overflow: hidden;
+}
+
+#sprite {
+  position: relative;
+}
+
+pipes.div {
+  position absolute;
+
+}
