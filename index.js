@@ -1,6 +1,6 @@
-//--------------------- CREATE ANIMATION ---------------------//
-
 var birdy           = document.getElementById('birdy');
+
+//--------------------- CREATE ANIMATION ---------------------//
 var sprite          = document.getElementById('sprite');
 var spriteStepWidth = 92;
 var spriteSteps     = 2;
@@ -106,5 +106,4 @@ function animateScene () {
 // LAUNCH SCENE
 //-----------------------------------------------------------
 
-setEvents();
 var animationInstance = window.setInterval(animateScene, 80);
